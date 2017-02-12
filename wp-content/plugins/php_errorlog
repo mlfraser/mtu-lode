@@ -1,0 +1,1 @@
+[18-Nov-2016 04:00:19 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/mtulode6/public_html/wp-content/plugins/hello.php on line 60

@@ -1,0 +1,43 @@
+.maxgalleria-mlp-notice {
+  height: 148px;
+  color: #000;
+  display: block;
+}
+
+#mlp_logo {
+  background: url("../images/mlp_logo.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  float: left;
+  margin: 10px;
+  height: 128px;
+  width: 128px;
+}
+
+#maxgalleria-mlp-notice-3 {
+  display: block;
+  height: 128px;
+  float: left;  
+  margin: 10px;
+}
+
+#mlp-notice-title {
+  font-size: 24px !important;
+  margin: 4px 0;
+}
+
+ul#mlp-review-notice-links li {
+  float: left;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.close-mlp-notice {
+  float: right;
+  line-height: 148px;
+}
+
+ul#-mlp-review-notice-links li a,
+div#maxgalleria-mlp-notice-3 p {
+  font-size: 16px;
+}
+

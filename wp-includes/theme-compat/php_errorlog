@@ -1,0 +1,3 @@
+[02-Oct-2016 14:43:27 CST6CDT] PHP Fatal error:  Call to undefined function do_action() in /home/mtulode6/public_html/wp-includes/theme-compat/footer-embed.php on line 18
+[02-Oct-2016 14:43:28 CST6CDT] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/mtulode6/public_html/wp-includes/theme-compat/footer.php on line 9
+[02-Oct-2016 14:43:41 CST6CDT] PHP Fatal error:  Call to undefined function post_class() in /home/mtulode6/public_html/wp-includes/theme-compat/embed-content.php on line 13

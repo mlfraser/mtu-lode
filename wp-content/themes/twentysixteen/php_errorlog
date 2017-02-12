@@ -1,0 +1,15 @@
+[26-Jul-2016 02:56:33 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[26-Jul-2016 02:56:38 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[27-Jul-2016 17:07:47 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[01-Aug-2016 09:33:10 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/index.php on line 17
+[01-Aug-2016 14:59:01 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/archive.php on line 19
+[02-Aug-2016 21:33:51 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/functions.php on line 32
+[05-Aug-2016 13:16:53 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/functions.php on line 32
+[05-Aug-2016 19:33:13 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/functions.php on line 32
+[06-Aug-2016 03:36:26 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/functions.php on line 32
+[07-Aug-2016 11:37:23 CST6CDT] PHP Fatal error:  Call to undefined function language_attributes() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/header.php on line 13
+[07-Aug-2016 11:37:24 CST6CDT] PHP Fatal error:  Call to undefined function has_nav_menu() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/footer.php on line 16
+[07-Aug-2016 11:37:24 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[09-Aug-2016 17:19:42 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/functions.php on line 32
+[10-Aug-2016 10:32:18 CST6CDT] PHP Fatal error:  Call to undefined function get_template_directory() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/functions.php on line 32
+[16-Sep-2016 11:30:12 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/mtulode6/public_html/wp-content/themes/twentysixteen/index.php on line 17
