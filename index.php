@@ -224,11 +224,12 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 				</div>
 				
 				<!-- NEWS SECTION-->
+                <article align="center" class="post_type_4 home-section-title">
+						<h1><center>News</center></h1>
+				</article>
 				<div class="block_posts type_2">
 				
-					<article align="center" class="post_type_4 home-section-title">
-						<h1><center>News</center></h1>
-					</article>
+					
 					<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $news->ID ), 'single-post-thumbnail' ); ?>
 					<article class="post_type_4">
 						<div class="feature">
@@ -250,7 +251,7 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 					
 					
 					<div class="posts isotope">
-						<?php for($i = 1; $i < 4; $i++) {
+						<?php for($i = 1; $i < 6; $i++) {
 						if($news_posts_array[$i] != null) {?>
 						<article class="post_type_2 isotope-item small-post">
 							
@@ -271,11 +272,12 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 				</div>
 				
 				<!-- OPINION SECTION -->
-				<div class="block_posts type_2">
-				
-					<article align="center" class="post_type_4 home-section-title">
+                <article align="center" class="post_type_4 home-section-title">
 						<h1><center>Opinion</center></h1>
 					</article>
+				<div class="block_posts type_2">
+				
+					
 					
 					<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $opinion->ID ), 'single-post-thumbnail' ); ?>
 					<article class="post_type_4">
@@ -296,7 +298,7 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 						</div>
 					</article>
 					<div class="posts isotope">
-						<?php for($i = 1; $i < 4; $i++) {
+						<?php for($i = 1; $i < 6; $i++) {
 						if($opinion_posts_array[$i] != null) {?>
 						<article class="post_type_2 isotope-item small-post">
 							
@@ -321,11 +323,12 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 				<br><br>
 				
 				<!-- PULSE SECTION -->
-				<div class="block_posts type_2">
-				
-					<article align="center" class="post_type_4 home-section-title">
+                <article align="center" class="post_type_4 home-section-title">
 						<h1><center>Pulse</center></h1>
 					</article>
+				<div class="block_posts type_2">
+				
+					
 					
 					<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $pulse->ID ), 'single-post-thumbnail' ); ?>
 					<article class="post_type_4">
@@ -346,7 +349,7 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 						</div>
 					</article>
 					<div class="posts isotope">
-						<?php for($i = 1; $i < 4; $i++) {
+						<?php for($i = 1; $i < 6; $i++) {
 						if($pulse_posts_array[$i] != null) {?>
 						<article class="post_type_2 isotope-item small-post">
 							
@@ -367,11 +370,12 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 				</div>
 				
 				<!-- SPORTS SECTION -->
-				<div class="block_posts type_2">
-				
-					<article align="center" class="post_type_4 home-section-title">
+                <article align="center" class="post_type_4 home-section-title">
 						<h1><center>Sports</center></h1>
 					</article>
+				<div class="block_posts type_2">
+				
+					
 					
 					<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $sports->ID ), 'single-post-thumbnail' ); ?>
 					<article class="post_type_4">
@@ -392,7 +396,7 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 						</div>
 					</article>
 					<div class="posts isotope">
-						<?php for($i = 1; $i < 4; $i++) {
+						<?php for($i = 1; $i < 6; $i++) {
 						if($sports_posts_array[$i] != null) {?>
 						<article class="post_type_2 isotope-item small-post">
 							
