@@ -3,9 +3,16 @@
  ?>
 <?php
 	$id = $_GET["p"];
+    pvc_view_post($id);
 	$post = get_post($id);
 	$categories = get_the_category($id);
 	$category = $categories[0];
+    $isVideo = false;
+    foreach($categories as $c) {
+        if($c == "Video") {
+            $isVideo = true;
+        }
+    }
 	$image = wp_get_attachment_image_src( get_post_thumbnail_id( $id ), 'single-post-thumbnail' );
 	$tags = get_the_tags($id);
 	
@@ -160,7 +167,7 @@
 				
 				<div class="main_content">
 					<div class="block_content">
-                        
+                        <?php if(!$isVideo) { ?>
                         <?php $pics = $dynamic_featured_image->get_featured_images($id); ?>
                         
                         <div class="block_slider_type_1 general_not_loaded">
@@ -186,7 +193,7 @@
                         </div>
                         <div align="center" class="post_image_caption"><p><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p></div>
                         
-                        
+                        <?php } ?>
                         
                         
                         
