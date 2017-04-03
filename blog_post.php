@@ -9,7 +9,7 @@
 	$category = $categories[0];
     $isVideo = false;
     foreach($categories as $c) {
-        if($c == "Video") {
+        if($c->name == "Video") {
             $isVideo = true;
         }
     }
@@ -116,6 +116,7 @@
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -142,6 +143,7 @@
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -388,6 +390,7 @@
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>

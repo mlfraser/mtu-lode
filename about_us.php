@@ -6,7 +6,7 @@ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $id ), 'single-post
 <html>
 
 <head>
-<title>Enterprise - Standard Post</title>
+<title>Abour Us</title>
 
 <meta name="keywords" content="">
 <meta name="description" content="">
@@ -46,6 +46,7 @@ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $id ), 'single-post
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -72,6 +73,7 @@ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $id ), 'single-post
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -111,6 +113,7 @@ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $id ), 'single-post
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>

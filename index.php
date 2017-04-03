@@ -129,6 +129,7 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -155,6 +156,7 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -436,6 +438,7 @@ $adv_url_200 = "https://goo.gl/".substr($latest_filename_200, 0, 6);
 									<li><a href="category.php?c=Opinion">OPINION</a></li>
 									<li><a href="category.php?c=Sports">SPORTS</a></li>
 									<li><a href="about_us.php">ABOUT US</a></li>
+                                    <li><a href="search_page.php">ARCHIVES</a></li>
 								</ul>
 							</nav>
 						</div>
